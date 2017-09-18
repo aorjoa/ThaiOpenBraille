@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.inputTextBox = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.outputTextBox = new System.Windows.Forms.TextBox();
             this.translateButton = new System.Windows.Forms.Button();
             this.help = new System.Windows.Forms.Button();
@@ -50,6 +50,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "คำที่ต้องการแปลง";
             // 
+            // inputTextBox
+            // 
+            this.inputTextBox.Location = new System.Drawing.Point(6, 28);
+            this.inputTextBox.Multiline = true;
+            this.inputTextBox.Name = "inputTextBox";
+            this.inputTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.inputTextBox.Size = new System.Drawing.Size(549, 122);
+            this.inputTextBox.TabIndex = 0;
+            this.inputTextBox.TextChanged += new System.EventHandler(this.inputTextBox_TextChanged);
+            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.ControlLightLight;
@@ -61,15 +71,6 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "แบรลล์";
-            // 
-            // inputTextBox
-            // 
-            this.inputTextBox.Location = new System.Drawing.Point(6, 28);
-            this.inputTextBox.Multiline = true;
-            this.inputTextBox.Name = "inputTextBox";
-            this.inputTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.inputTextBox.Size = new System.Drawing.Size(549, 122);
-            this.inputTextBox.TabIndex = 0;
             // 
             // outputTextBox
             // 
@@ -90,6 +91,7 @@
             this.translateButton.TabIndex = 2;
             this.translateButton.Text = "แปลง";
             this.translateButton.UseVisualStyleBackColor = false;
+            this.translateButton.Click += new System.EventHandler(this.translateButton_Click);
             // 
             // help
             // 
@@ -101,6 +103,7 @@
             this.help.TabIndex = 3;
             this.help.Text = "?";
             this.help.UseVisualStyleBackColor = false;
+            this.help.Click += new System.EventHandler(this.help_Click);
             // 
             // MainProgram
             // 

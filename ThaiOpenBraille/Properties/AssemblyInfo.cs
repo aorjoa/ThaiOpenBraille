@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ThaiOpenBraille")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("ThaiOpenBraille (TOB) : โปรแกรมแปลงภาษาไทย/อังกฤษ - แบรลล์")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("SUT Aiyara Cluster")]
 [assembly: AssemblyProduct("ThaiOpenBraille")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
