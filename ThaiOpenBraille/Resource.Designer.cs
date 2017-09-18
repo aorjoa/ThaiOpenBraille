@@ -73,6 +73,16 @@ namespace ThaiOpenBraille {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap overall_img {
+            get {
+                object obj = ResourceManager.GetObject("overall_img", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SUT_Aiyara_cluster_logo {
             get {
                 object obj = ResourceManager.GetObject("SUT_Aiyara_cluster_logo", resourceCulture);

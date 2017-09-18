@@ -135,5 +135,8 @@
   <ItemGroup>
     <None Include="Resources\SUT_Aiyara_cluster_logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\overall-img.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
