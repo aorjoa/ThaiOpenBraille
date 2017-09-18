@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaiOpenBraille", "ThaiOpenBraille\ThaiOpenBraille.csproj", "{A5AAB15C-790F-467E-AA7B-18A8415D9BBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5AAB15C-790F-467E-AA7B-18A8415D9BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5AAB15C-790F-467E-AA7B-18A8415D9BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5AAB15C-790F-467E-AA7B-18A8415D9BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5AAB15C-790F-467E-AA7B-18A8415D9BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC7477BB-7F0C-406C-8765-3C3CBE6FBAE9}
+	EndGlobalSection
+EndGlobal
