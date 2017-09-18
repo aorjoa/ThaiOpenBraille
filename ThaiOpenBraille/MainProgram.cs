@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ThaiOpenBraille
 {
-    public partial class Form1 : Form
+    public partial class MainProgram : Form
     {
-        public Form1()
+        public MainProgram()
         {
             InitializeComponent();
         }
