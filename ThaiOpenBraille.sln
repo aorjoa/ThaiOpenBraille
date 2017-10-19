@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaiOpenBraille", "ThaiOpenBraille\ThaiOpenBraille.csproj", "{A5AAB15C-790F-467E-AA7B-18A8415D9BBF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThaiOpenBraille.Api", "ThaiOpenBraille.Api\ThaiOpenBraille.Api.csproj", "{8B5F4DE4-9C76-4AB4-89EE-D2FF955A2FFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaiOpenBraille.UnitTests", "ThaiOpenBraille.UnitTests\ThaiOpenBraille.UnitTests.csproj", "{235D8B9C-DBE9-47CA-9358-8DACA696D425}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A5AAB15C-790F-467E-AA7B-18A8415D9BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5AAB15C-790F-467E-AA7B-18A8415D9BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5AAB15C-790F-467E-AA7B-18A8415D9BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5F4DE4-9C76-4AB4-89EE-D2FF955A2FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5F4DE4-9C76-4AB4-89EE-D2FF955A2FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5F4DE4-9C76-4AB4-89EE-D2FF955A2FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5F4DE4-9C76-4AB4-89EE-D2FF955A2FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{235D8B9C-DBE9-47CA-9358-8DACA696D425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{235D8B9C-DBE9-47CA-9358-8DACA696D425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{235D8B9C-DBE9-47CA-9358-8DACA696D425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{235D8B9C-DBE9-47CA-9358-8DACA696D425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

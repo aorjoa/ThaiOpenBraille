@@ -91,7 +91,7 @@
             this.translateButton.TabIndex = 2;
             this.translateButton.Text = "แปลง";
             this.translateButton.UseVisualStyleBackColor = false;
-            this.translateButton.Click += new System.EventHandler(this.translateButton_Click);
+            this.translateButton.Click += new System.EventHandler(this.TranslateButton_Click);
             // 
             // help
             // 

@@ -52,12 +52,6 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ICU4NET">
-      <HintPath>lib\ICU4NET.dll</HintPath>
-    </Reference>
-    <Reference Include="ICU4NETExtension">
-      <HintPath>lib\ICU4NETExtension.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -77,7 +71,6 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
-    <Compile Include="BrailleTabe.cs" />
     <Compile Include="MainProgram.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +130,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\overall-img.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ThaiOpenBraille.Api\ThaiOpenBraille.Api.csproj">
+      <Project>{8b5f4de4-9c76-4ab4-89ee-d2ff955a2ffb}</Project>
+      <Name>ThaiOpenBraille.Api</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
