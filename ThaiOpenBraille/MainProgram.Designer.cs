@@ -34,6 +34,7 @@
             this.outputTextBox = new System.Windows.Forms.TextBox();
             this.translateButton = new System.Windows.Forms.Button();
             this.help = new System.Windows.Forms.Button();
+            this.clearButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -42,7 +43,7 @@
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.groupBox1.Controls.Add(this.inputTextBox);
-            this.groupBox1.Font = new System.Drawing.Font("TH SarabunPSK", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Browallia New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(22, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(561, 156);
@@ -64,13 +65,13 @@
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.groupBox2.Controls.Add(this.outputTextBox);
-            this.groupBox2.Font = new System.Drawing.Font("TH SarabunPSK", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Browallia New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(22, 174);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(561, 162);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "แบรลล์";
+            this.groupBox2.Text = "อักษรเบรลล์";
             // 
             // outputTextBox
             // 
@@ -84,10 +85,10 @@
             // translateButton
             // 
             this.translateButton.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.translateButton.Font = new System.Drawing.Font("TH SarabunPSK", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.translateButton.Font = new System.Drawing.Font("Browallia New", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.translateButton.Location = new System.Drawing.Point(614, 34);
             this.translateButton.Name = "translateButton";
-            this.translateButton.Size = new System.Drawing.Size(148, 128);
+            this.translateButton.Size = new System.Drawing.Size(148, 64);
             this.translateButton.TabIndex = 2;
             this.translateButton.Text = "แปลง";
             this.translateButton.UseVisualStyleBackColor = false;
@@ -96,7 +97,7 @@
             // help
             // 
             this.help.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.help.Font = new System.Drawing.Font("TH SarabunPSK", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.help.Font = new System.Drawing.Font("Browallia New", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.help.Location = new System.Drawing.Point(736, 293);
             this.help.Name = "help";
             this.help.Size = new System.Drawing.Size(37, 43);
@@ -105,12 +106,25 @@
             this.help.UseVisualStyleBackColor = false;
             this.help.Click += new System.EventHandler(this.help_Click);
             // 
+            // clearButton
+            // 
+            this.clearButton.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.clearButton.Font = new System.Drawing.Font("Browallia New", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.clearButton.Location = new System.Drawing.Point(614, 104);
+            this.clearButton.Name = "clearButton";
+            this.clearButton.Size = new System.Drawing.Size(148, 64);
+            this.clearButton.TabIndex = 4;
+            this.clearButton.Text = "ล้าง";
+            this.clearButton.UseVisualStyleBackColor = false;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
+            // 
             // MainProgram
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(785, 348);
+            this.Controls.Add(this.clearButton);
             this.Controls.Add(this.help);
             this.Controls.Add(this.translateButton);
             this.Controls.Add(this.groupBox2);
@@ -118,7 +132,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainProgram";
-            this.Text = "ThaiOpenBraille (TOB) : โปรแกรมแปลงภาษาไทย/อังกฤษ - แบรลล์ ";
+            this.Text = "ThaiOpenBraille (TOB) : โปรแกรมแปลงภาษาไทย/อังกฤษ - เบรลล์";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -135,6 +149,7 @@
         private System.Windows.Forms.TextBox outputTextBox;
         private System.Windows.Forms.Button translateButton;
         private System.Windows.Forms.Button help;
+        private System.Windows.Forms.Button clearButton;
     }
 }
 
