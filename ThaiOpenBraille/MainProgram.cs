@@ -66,5 +66,11 @@ namespace ThaiOpenBraille
             About aboutBox = new About();
             aboutBox.ShowDialog();
         }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            inputTextBox.Text = "";
+            outputTextBox.Text = "";
+        }
     }
 }
